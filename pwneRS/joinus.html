@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Join pwneRS </title>
+        <meta name="description" content="Tactical Paramedics community of city of Belgrade" />
+        <meta name="keywords" content="paramedics, tactical paramedic, tactics, special forces, paramedics Belgrade" />
+        <link rel="stylesheet" type="text/css" href="style/style.css" title="style" />
+    </head>
+    <body>
+        <div id="header">
+            <div id="headercontent">
+                <a id="title" class="titleA" href="index.html">
+                    <div>
+                        <img src="./images/grb.png" alt="logo" width="100px"/>
+                        <p id="title"> pwneRS </p>
+                    </div>
+                </a>
+            </div>
+            <div id="menubar">
+                <ul id="menu" class="menu">
+                    <li><a href="index.html"> Početna </a></li>
+                    <li><a href="aboutus.html"> O nama </a></li>
+                    <li class="selected"><a href="joinus.html"> Priključite se </a></li>
+                    <li><a href="contactus.html"> Kontakt </a></li>
+                </ul>
+            </div>
+        </div>
+        <div id="main">
+            <div id="page_content">
+                <div id="content">
+                    <h1> Priključite se timu </h1>
+                    <h3> Popunite formu </h3>
+                    <form id="forma">
+                        <div class="row">
+                            <div class="col-25">
+                                <label for="name"> Ime i prezime </label>
+                            </div>
+                            <div class="col-75">
+                                <input type="text" id="name" name="name" placeholder="Unesite Vaše ime">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-25">
+                                <label for="number"> Broj telefona </label>
+                            </div>
+                            <div class="col-75">
+                                <input type="text" id="number" name="number" placeholder="Unesite Vaše broj telefona">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-25">
+                                <label for="email"> Email </label>
+                            </div>
+                            <div class="col-75">
+                                <input type="text" id="email" name="email" placeholder="Unesite email adresu">
+                            </select>
+                          </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-25">
+                                <label for="zvanje"> Zvanje </label>
+                            </div>
+                            <div class="col-75">
+                                <select name="zvanjeList" form="forma">
+                                    <option value ="laik">Noob</option>
+                                    <option value ="medTech">Script Kiddie</option>
+                                    <option value ="doc">Hacker</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-25">
+                                <label for="zaposlenje"> Zaposlenje </label>
+                            </div>
+                            <div class="col-75">
+                                <select name="zaposlenjeList" form="forma">
+                                    <option value ="none">None</option>
+                                    <option value ="med">IT</option>
+                                    <option value ="armedForces">Cybersecurity</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-25">
+                                <label for="lokacija"> Lokacija </label>
+                            </div>
+                            <div class="col-75">
+                                <select name="lokacijaList" form="forma">
+                                    <option value ="centar">Centar</option>
+                                    <option value ="NbgdZemun">Novi Beograd i Zemun</option>
+                                    <option value ="levaObala">Leva obala Dunava</option>
+                                    <option value ="SB">Surčin i Batajnica</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <input type="submit" value="Pošalji">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <footer class="footer">
+            <p> &copy; 2023 pwneRS, Sva prava sadržana. </p>
+        </footer>
+    </body>
+</html>
